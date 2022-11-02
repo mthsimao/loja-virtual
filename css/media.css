@@ -1,5 +1,55 @@
-@media (max-width:1222px) {
-    .box {
-        column-count: 2;
+@media (max-width:1056px) {
+
+    .container-m1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-description {
+        margin-top: 4em;
+    }
+
+    .container-img {
+        width: 350px;
+    }
+    .pqn-img {
+        width: 300px;
+    }
+}
+
+@media (max-width:1000px) {
+    .content {
+        width: 840px;
+    }
+}
+
+@media (max-width:876px) {
+    .content {
+        width: 700px;
+    }
+}
+
+@media (max-width:768px) {
+
+    div.header2 {
+        font-size: 1.2em;
+        height: 5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .img-promo {
+        width: 530px;
+    }
+    .content {
+        width: 300px;
+    }
+
+    .element {
+        padding-top: 30px;
     }
 }

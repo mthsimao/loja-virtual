@@ -56,21 +56,22 @@ body {
 
 .header2 {
     background-color: rgb(25, 25, 25);
-    height: 40px;
+    height: 4em;
 }
 
 .header2-link {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
     gap: 3%;
 }
 
 .header2-link a{
+    font-size: 1.3em;
     color: white;
     text-decoration: none;
-    padding: 10px;
+    padding: 18px;
 }
 .header2-link a:hover {
     color: #FF6A00;
@@ -303,6 +304,7 @@ body {
 .footer {
     margin: 50px;
 }
+
 .f-container {
     display: flex;
     flex-direction: column;
@@ -310,16 +312,24 @@ body {
     align-items: center;
     gap: 30px;
 }
+
+.f-container {
+    text-align: center;
+}
+
 .f-container p {
     font-size: 0.9em;
 }
+
+.f-container a{
+    text-decoration: none;
+    color: blue;
+}
+
 .f-img {
     max-width: 520px;
 }
-.f-a {
-    text-decoration: none;
-    color: black;
-}
+
 
 
 
@@ -489,4 +499,5 @@ body {
     color: slategray;
     text-transform: capitalize
 }
+
 
