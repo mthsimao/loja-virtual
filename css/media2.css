@@ -1,0 +1,27 @@
+@media (max-width:375px) {
+
+    div.header > nav {
+        flex-direction: column;
+    }
+
+    div.header2 {
+        height: 7em;
+    }
+
+    .header2-link{
+        flex-direction: column;
+        font-size: .7em;
+    }
+
+    .pqn-img {
+        width: 320px;
+    }
+
+    .container-img {
+        width: 350px;
+    }
+
+    .f-img {
+        width: 60px;
+    }
+}

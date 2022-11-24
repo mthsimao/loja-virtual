@@ -53,3 +53,51 @@
         padding-top: 30px;
     }
 }
+
+@media (max-width:375px) {
+
+
+    * {
+        margin: 0;
+    }
+
+    .header > nav {
+        flex-direction: column;
+    }
+
+    div.header2 {
+        height: 12em;
+    }
+
+    .header2-link {
+        flex-direction: column;
+        font-size: .7em;
+    }
+
+    .img-promo {
+        margin: 0;
+        width: 340px;
+    }
+
+    .content-backcolor {
+        padding: 10px;
+        width: 330px;
+    }
+
+    .content-in {
+        font-size: .8em;
+    }
+
+    .box {
+        margin: 5px;
+    }
+
+    .img-pqn {
+        padding: 0;
+        width: 270px;
+    }
+
+    .f-img {
+        width: 150px;
+    }
+}
