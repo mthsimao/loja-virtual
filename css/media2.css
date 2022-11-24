@@ -1,6 +1,5 @@
 @media (max-width:375px) {
 
-
     div.header > nav {
         flex-direction: column;
     }
@@ -15,10 +14,14 @@
     }
 
     .pqn-img {
-        width: 70px;
+        width: 320px;
+    }
+
+    .container-img {
+        width: 350px;
     }
 
     .f-img {
-        width: 150px;
+        width: 60px;
     }
 }
