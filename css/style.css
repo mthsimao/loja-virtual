@@ -55,17 +55,22 @@ body {
 }
 
 .header2 {
-    background-color: rgb(25, 25, 25);
+    background-color: #000000;
     height: 4em;
 }
 
-.header2-link {
+.header2-link ul{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-top: 1.1em;
     gap: 3%;
+}
+
+.header2-link ul li {
+    list-style-type: none;
 }
 
 .header2-link a{
@@ -90,7 +95,7 @@ body {
 }
 
 .content-backcolor {
-    background-color: black;
+    background-color: #000;
     color: white;
     padding: 20px;
     display: flex;
@@ -204,49 +209,21 @@ body {
     align-items: center;
     justify-content:center;
     gap: 15px;
+    margin: 0 auto;
+    margin-right: 15px;
 }
 
-.detalhes {
-    display: inline-block;
-    border: 1px solid rgba(0, 0, 0, 0.281);
-    border-radius: 5px;
-    text-align: center;
-    justify-content: center;
-    width: 160px;
-    margin-top: 5px;
-}
-.detalhes-link {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-}
-.detalhes-link:hover {
-    background-color: #e4e4e46e;
-    transition: .3s;
-}
-.detalhes-p {
-    color: black;
-    font-size: 14px;
-    text-transform: uppercase;
-}
-
+.detalhes,
 .box-comprar {
     display: inline-block;
     border: 1px solid rgba(0, 0, 0, 0.281);
     border-radius: 5px;
     text-align: center;
-    align-items: center;
     justify-content: center;
     width: 160px;
     margin-top: 5px;
-    margin-right: 15px;
 }
+.detalhes-link,
 .comprar-link {
     display: flex;
     flex-direction: row;
@@ -259,16 +236,17 @@ body {
     padding: 10px;
     cursor: pointer;
 }
+.detalhes-link:hover,
 .comprar-link:hover {
     background-color: #e4e4e46e;
     transition: .3s;
 }
+.detalhes-p,
 .comprar-p {
     color: black;
     font-size: 14px;
     text-transform: uppercase;
 }
-
 
 .box-itens-a {
     text-decoration: none;

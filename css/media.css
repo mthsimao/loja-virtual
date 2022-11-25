@@ -45,6 +45,12 @@
     .img-promo {
         width: 530px;
     }
+
+    .box-itens {
+        width: 360px;
+        height: 480px;
+    }
+
     .content {
         width: 300px;
     }
@@ -56,7 +62,7 @@
 
 @media (max-width:375px) {
 
-
+    
     * {
         margin: 0;
     }
@@ -69,9 +75,14 @@
         height: 12em;
     }
 
-    .header2-link {
+    .header2-link ul{
         flex-direction: column;
-        font-size: .7em;
+        gap: 20px;
+    }
+    
+    .header2-link ul li {
+        list-style-type: none;
+        font-size: 0.8em;
     }
 
     .img-promo {
@@ -81,7 +92,15 @@
 
     .content-backcolor {
         padding: 10px;
-        width: 330px;
+        width: 300px;
+    }
+
+    .img-pq {
+        width: 64px;
+    }
+
+    .img-pqw {
+        width: 54px;
     }
 
     .content-in {
@@ -92,12 +111,36 @@
         margin: 5px;
     }
 
-    .img-pqn {
-        padding: 0;
-        width: 270px;
+    .box-itens {
+        padding: 5px;
+        width: 300px;
+        height: 520px;
     }
 
-    .f-img {
-        width: 150px;
+    .box-itens-last {
+        flex-direction: column;
+        margin-right: 10px;
+        gap: 1.5em;
     }
+
+    .detalhes,
+    .box-comprar {
+        width: 180px;
+        height: 3.2em;
+    }
+
+    .detalhes-p,
+    .comprar-p {
+        font-size: 18px;
+    }
+
+    .label {
+        font-size: 10px;
+    }
+
+    .img-pqn {
+        padding: 0;
+        width: 220px;
+    }
+
 }
